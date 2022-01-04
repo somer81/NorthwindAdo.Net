@@ -35,16 +35,37 @@ namespace CustomersPr
             conn.Close();
             MessageBox.Show("Ürün başarıyla Eklendi");
             DispayData();
+            Temizle();
         }
 
         private void btn_guncel_Click(object sender, EventArgs e)
         {
+            conn = new SqlConnection(baglanti);
+            cmd = new SqlCommand("UPDATE Products SET ProductName = @pn, UnitPrice=@up,UnitsInStock=@uis,UnitsOnOrder=@uoo WHERE ProductId = @id", conn);
+            conn.Open();
+            cmd.Parameters.AddWithValue("@id", textBox1.Text);
+            cmd.Parameters.AddWithValue("@pn", tb_productname.Text);
+            cmd.Parameters.AddWithValue("@up", Convert.ToDouble(tb_unitprice.Text));
+            cmd.Parameters.AddWithValue("@uis", Convert.ToInt32(tb_stock.Text));
+            cmd.Parameters.AddWithValue("@uoo", Convert.ToInt32(tb_order.Text));
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            MessageBox.Show("Ürün başarıyla Güncellendi");
+            DispayData();
+        }
 
+        private void Temizle()
+        {
+            tb_order.Clear();
+            tb_productname.Clear();
+            tb_unitprice.Clear();
+            tb_stock.Clear();
+            textBox1.Clear();
         }
 
         private void btn_temizle_Click(object sender, EventArgs e)
         {
-
+            Temizle();
         }
 
         private void btn_sil_Click(object sender, EventArgs e)
@@ -57,6 +78,7 @@ namespace CustomersPr
             conn.Close();
             MessageBox.Show("Ürün başarıyla Silindi");
             DispayData();
+            Temizle();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -81,9 +103,9 @@ namespace CustomersPr
            // MessageBox.Show("CEll Double_Click event calls");
             int rowIndex = e.RowIndex;
             DataGridViewRow row = dg_product.Rows[rowIndex];
-             textBox1.Text = row.Cells[0].Value.ToString();
+             textBox1.Text = row.Cells["ProductId"].Value.ToString();
             tb_productname.Text = row.Cells[1].Value.ToString();
-            tb_unitprice.Text = row.Cells[5].Value.ToString();
+            tb_unitprice.Text = row.Cells["UnitPrice"].Value.ToString();
             tb_stock.Text = row.Cells[6].Value.ToString();
             tb_order.Text = row.Cells[7].Value.ToString();
         }
