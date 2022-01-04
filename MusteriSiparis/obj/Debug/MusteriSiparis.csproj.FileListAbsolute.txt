@@ -1,0 +1,9 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\MusteriSiparis\MusteriSiparis\bin\Debug\MusteriSiparis.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\MusteriSiparis\MusteriSiparis\bin\Debug\MusteriSiparis.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\MusteriSiparis\MusteriSiparis\bin\Debug\MusteriSiparis.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.Form1.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2013\Projects\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.pdb

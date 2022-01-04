@@ -1,0 +1,9 @@
+C:\Users\Lenovo\documents\visual studio 2013\Projects\MusteriSiparis\CustomersPr\bin\Debug\CustomersPr.exe.config
+C:\Users\Lenovo\documents\visual studio 2013\Projects\MusteriSiparis\CustomersPr\bin\Debug\CustomersPr.exe
+C:\Users\Lenovo\documents\visual studio 2013\Projects\MusteriSiparis\CustomersPr\bin\Debug\CustomersPr.pdb
+C:\Users\Lenovo\documents\visual studio 2013\Projects\MusteriSiparis\CustomersPr\obj\Debug\CustomersPr.Form1.resources
+C:\Users\Lenovo\documents\visual studio 2013\Projects\MusteriSiparis\CustomersPr\obj\Debug\CustomersPr.Properties.Resources.resources
+C:\Users\Lenovo\documents\visual studio 2013\Projects\MusteriSiparis\CustomersPr\obj\Debug\CustomersPr.csproj.GenerateResource.Cache
+C:\Users\Lenovo\documents\visual studio 2013\Projects\MusteriSiparis\CustomersPr\obj\Debug\CustomersPr.exe
+C:\Users\Lenovo\documents\visual studio 2013\Projects\MusteriSiparis\CustomersPr\obj\Debug\CustomersPr.pdb
+C:\Users\Lenovo\documents\visual studio 2013\Projects\MusteriSiparis\CustomersPr\obj\Debug\CustomersPr.csprojResolveAssemblyReference.cache
